@@ -12,10 +12,10 @@ const gulp = require('gulp'),
 /***************************************************/
 /*Variables*/
 /**************************************************/
-const pugDest = 'dist/',
+const pugDest = 'dist',
       pugFolder = 'src/pug/*.pug',
       sassFolder = 'src/sass/*.sass',
-      sassDest = 'dist/style/';
+      sassDest = 'dist/style';
 
 /***************************************************/
 /*Originators are herre*/
