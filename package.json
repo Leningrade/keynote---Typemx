@@ -1,8 +1,29 @@
 {
-  "name": "Typemx",
-  "version": "0.0.1",
-  "description": "Repositorio para los ejemplos y presentacion en TypeMX",
-  "main": "index.js",
-  "author": "Edgar Robles",
-  "license": "MIT"
+   "dependencies": {
+      "global": "^4.3.2",
+      "include-media": "^1.4.9"
+   },
+   "name": "enmienda-Web-2",
+   "version": "2",
+   "description": "Nueva Version del Sitio Enmienda.",
+   "main": "index.js",
+   "author": "Edgar Robles",
+   "license": "MIT",
+   "devDependencies": {
+      "autoprefixer": "^7.1.2",
+      "cssnano": "^3.10.0",
+      "gulp": "^3.9.1",
+      "gulp-autoprefixer": "^4.0.0",
+      "gulp-cli": "^1.4.0",
+      "gulp-htmlmin": "^3.0.0",
+      "gulp-imagemin": "^3.3.0",
+      "gulp-postcss": "^7.0.0",
+      "gulp-pug": "^3.3.0",
+      "gulp-sass": "^3.1.0",
+      "gulp-uglify": "^3.0.0",
+      "gulp-webserver": "^0.9.1",
+      "jstransformer": "^1.0.0",
+      "jstransformer-markdown-it": "^2.0.0",
+      "pug": "^2.0.0-rc.3"
+   }
 }
