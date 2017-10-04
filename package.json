@@ -1,0 +1,8 @@
+{
+  "name": "Typemx",
+  "version": "0.0.1",
+  "description": "Repositorio para los ejemplos y presentacion en TypeMX",
+  "main": "index.js",
+  "author": "Edgar Robles",
+  "license": "MIT"
+}
