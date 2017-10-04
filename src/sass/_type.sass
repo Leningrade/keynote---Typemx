@@ -1,0 +1,10 @@
+=font-stack($font-name)
+  //mixin para crear los stacks de fuentes
+  font-family: $font-name
+
+  @each $format in $fontformats
+    src: url('../fonts/#{$font-name}.#{$format}')
+@each $font in $fontnames
+  //este ciclo es el generador real
+  @font-face
+    +font-stack($font)

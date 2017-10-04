@@ -1,0 +1,100 @@
+@import reset
+@import include-media
+@import variables
+@import modularscale
+
+html
+  background-color: $background-color
+
+body
+  color: $color-1
+  text-align: left
+  justify-content: space-between
+
+h1
+  font-family: $main-font
+  line-height: 120%
+  text-transform: capitalize
+  font-size: ms(4)
+  text-align: left
+
+
+h2
+  font-family: $main-font
+  font-size: ms(3)
+  text-align: left
+  line-height: 120%
+
+h3
+  @extend p
+  font-size: ms(1)
+  font-family: $main-font
+  line-height: 150%
+
+p
+  @include media('>=medium')
+    font-size: ms(5)
+  font-family: $secondary-font
+  font-size: ms(5)
+  line-height: 120%
+
+a
+  color: $color-2
+  text-decoration: none
+
+  .lines
+    border-color: $color-1
+    border-top: 1px solid
+
+span
+  .upper
+    font-family: $secondary-font
+    font-size: ms(0)
+    baseline-shift: super
+
+
+.menu
+  overflow-x: scroll
+  font-family: $main-font
+  white-space: nowrap
+  margin-top: $margin
+
+  a, span
+    @include media('>=medium')
+      font-size: ms(10)
+    font-family: $main-font
+    font-size: ms(5)
+    line-height: 130%
+    color: $color-1
+
+.space
+  min-height: 30vh
+
+.footer
+  display: flex
+  min-height: 33vh
+  background-color: $color-1
+  color: $background-color
+
+  .full
+    padding-left: 10%
+
+li
+  list-style-type: none
+
+  h1, a
+    color: $color-2
+
+  li
+    font-size: ms(0)
+    margin-left: $margin
+    font-family: $main-font
+    line-height: 120%
+    text-decoration: none
+
+  img
+    @include media('>small', '<=large')
+      width: 50vw
+    @include media('>large')
+      width: 33.3vw
+    width: 100vw
