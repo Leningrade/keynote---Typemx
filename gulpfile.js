@@ -39,6 +39,7 @@ gulp.task('webserver', function(){
       livereload: true,
       open: true,
       fallback: 'hello.html',
+      https: true,
     }));
 });
 
