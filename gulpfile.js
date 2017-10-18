@@ -56,7 +56,7 @@ gulp.task('watch-templates', function(){
 gulp.task('sass', function(){
   var plugins = [
     autoprefixer(),
-    cssnano(),
+    //cssnano(),
   ];
   gulp.src(sassFolder)
   .pipe(sass())

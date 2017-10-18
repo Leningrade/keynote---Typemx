@@ -1,10 +1,11 @@
-=font-stack($font-name)
-  //mixin para crear los stacks de fuentes
-  font-family: $font-name
+@font-face
+  font-family: Muybridge
+  src: url("../fonts/MuybridgeGX.woff2")
 
-  @each $format in $fontformats
-    src: url('../fonts/#{$font-name}.#{$format}')
-@each $font in $fontnames
-  //este ciclo es el generador real
-  @font-face
-    +font-stack($font)
+@font-face
+  font-family: AmstelvarAlpha
+  src: url("../fonts/AmstelvarAlfa-Variations.ttf")
+
+@font-face
+  font-family: Gingham
+  src: url("../fonts/")
